@@ -1,5 +1,9 @@
+import TopNav from './containers/TopNavContainer';
 function App() {
-	return <div>AI Calendar</div>;
+	return (
+		<div>
+			<TopNav />
+		</div>
+	);
 }
-
 export default App;
